@@ -1,0 +1,101 @@
+body {
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #252525;
+  background: #ffffff url("img/kr.jpg") no-repeat 100% 10%;
+}
+
+h1 {
+  width: 260px;
+  font-family: "Georgia", serif;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+h2 {
+  padding-bottom: 12px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.site-header {
+  margin-bottom: 30px;
+}
+
+.skills-item {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  border-left: 10px solid #f8cefd;
+  color: #5c5959;
+}
+
+.standart {
+  border-color: #f0a1fa;
+  color: #3f3e3e;
+}
+
+
+.vip {
+  border-color: #e554f8;
+  color: #292828;
+}
+
+.container {
+  width: 480px;
+  margin: 0 auto;
+}
+
+.site-header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.features {
+  margin-bottom: 30px;
+}
+
+.features p {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin: 0 5px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.feature-mat {
+  padding-top: 60px;
+  background-image: url("img/nail-polish.svg");
+}
+
+.feature-cer {
+  padding-top: 60px;
+  background-image: url("img/cer.svg");
+}
+
+.feature-mod {
+  padding-top: 60px;
+  background-image: url("img/sh.svg");
+}
+
+
+.skills-list {
+  padding: 0;
+  list-style: none;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  color: #999999;
+}
+
+.social a {
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  float: left;
+  background-image: url("img/instagram.svg");
+}
